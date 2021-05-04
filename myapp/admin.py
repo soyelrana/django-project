@@ -11,5 +11,4 @@ class ProfileAdmin(admin.ModelAdmin):
         'address',
         'image'
     ]
-    
-admin.site.register(Profile, ProfileAdmin)
+admin.site.register(Profile, ProfileAdmin) 
