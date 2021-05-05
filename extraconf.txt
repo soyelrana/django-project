@@ -7,8 +7,9 @@ AWS_DEFAULT_ACL = None
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 
-#Whitenoise for static files
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+#Whitenoise for statc files
+
+
 
 #Whitenoise for middleware
 'whitenoise.middleware.WhiteNoiseMiddleware',
